@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top_bar {
+    background: #f5f5f5;
+    text-decoration: none;
+    color: gray;
+    border: solid #14aab5;
+    border-width: 4px 0 0 0;
+}
+.account_tabs a {
+    color: gray;
+    padding: 5px;
+    text-decoration: none;
+}
+.visitor {
+    text-align: right;
+}    
+
+.logo_bar a {
+    background: #e6e6e6;
+    color: gray;
+    padding: 5px;
+}
+.logo_bar a:hover {
+    background: #14bfcb;
+    color: white;
+    text-decoration: none;
+}
+.dollar_tabs {
+    margin-top: 30px;
+    text-align: right;
+}
+
+.merchandise_tab a {
+    color: #4b4c45;
+    padding: 14px;
+}
+.merchandise_tab a:hover {
+    color: #4cc8d6;
+    text-decoration: none;
+}
+.search_bar {
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.hero {
+    background: #e0e0de;
+}
+
+.flyers {
+    margin-top: 25px;
+}
+
+.arrows a {
+    background: #fafafa;
+    padding: 5px;
+    border: solid #f0f0f0;
+    float: right;
+    margin-top: 30px;
+}
+.arrows a:hover {
+    background: #13bfcb;
+    color: white;
+    border: solid #13bfcb;
+}
+
+.store_items a {
+    background: #434b4d;
+    color: white;
+    text-decoration: none;
+    margin-left: 80px;
+    padding: 5px;
+    border-radius: 2px;
+}
+.store_items p {
+    text-align: center;
+}
+
+.welcome {
+    margin-top: 10px;
+}
+.welcome p {
+    text-indent: 30px;
+}
+
+.brand_logo {
+    margin-top: 40px;
+}
+
+.sign_up {
+    background: #d6d6d6;
+    margin-top: 30px;
+}
+.sign_up input {
+    margin-top: 8px;
+    border: solid #efdd4f;
+}
+.sign_up a {
+    background: #434b4d;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+.email_bar {
+    text-align: right;
+}
+
+.more_info {
+    background: #434b4d;
+    color: white
+}
+.more_info a {
+    text-decoration: none;
+    color: white;
+}
+.more_info a:hover {
+    color: #3d6a67;
+}
+.more_info ul {
+    list-style: square;
+}
+footer {
+    background: #434b4d;
+    border: solid #1a1c1d;
+    border-width: 1px 0 0 0;
+    color: white;
+}
