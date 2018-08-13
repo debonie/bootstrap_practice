@@ -8,6 +8,7 @@ body {
     color: gray;
     border: solid #14aab5;
     border-width: 4px 0 0 0;
+    padding-top: 10px;
 }
 .account_tabs a {
     color: gray;
@@ -67,6 +68,10 @@ body {
     border: solid #13bfcb;
 }
 
+.latest {
+    padding-top: 20px;
+}
+
 .store_items a {
     background: #434b4d;
     color: white;
@@ -79,20 +84,31 @@ body {
     text-align: center;
 }
 
+.manufacturers {
+    padding-top: 40px;
+}
+
 .welcome {
-    margin-top: 10px;
+    padding-top: 60px;
 }
 .welcome p {
     text-indent: 30px;
 }
 
+.best_sellers {
+    padding-top: 40px; 
+    padding-bottom: 40px;
+}
+
 .brand_logo {
-    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .sign_up {
     background: #d6d6d6;
     margin-top: 30px;
+    padding: 20px;
 }
 .sign_up input {
     margin-top: 8px;
@@ -110,7 +126,8 @@ body {
 
 .more_info {
     background: #434b4d;
-    color: white
+    color: white;
+    padding: 52px;
 }
 .more_info a {
     text-decoration: none;
@@ -121,6 +138,7 @@ body {
 }
 .more_info ul {
     list-style: square;
+    padding-left: 18px;
 }
 footer {
     background: #434b4d;
