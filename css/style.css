@@ -10,6 +10,11 @@ body {
     border-width: 4px 0 0 0;
     padding-top: 10px;
 }
+.top_bar ul {
+    list-style: none;
+    display: inline-flex;
+}
+
 .account_tabs a {
     color: gray;
     padding: 5px;
@@ -34,9 +39,16 @@ body {
     text-align: right;
 }
 
+.merchandise_tab {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 .merchandise_tab a {
     color: #4b4c45;
-    padding: 14px;
+    padding: 0 13px;
+    display: inline-block;
+    height: 33px;
+    line-height: 33px;
 }
 .merchandise_tab a:hover {
     color: #4cc8d6;
@@ -45,6 +57,10 @@ body {
 .search_bar {
     text-align: right;
     margin-bottom: 15px;
+}
+.search_bar input {
+    height: 33px;
+    border: 1px solid #ccc;
 }
 
 .hero {
@@ -66,6 +82,11 @@ body {
     background: #13bfcb;
     color: white;
     border: solid #13bfcb;
+}
+
+.left_bar {
+    border-left: 4px solid #10c1cb;
+    padding-left: 10px;
 }
 
 .latest {
@@ -140,9 +161,29 @@ body {
     list-style: square;
     padding-left: 18px;
 }
+.more_info button {
+    background: #10c1cb;
+}
+
 footer {
     background: #434b4d;
     border: solid #1a1c1d;
     border-width: 1px 0 0 0;
     color: white;
+    padding-top: 10px;
+}
+
+/* .col-sm-? */
+@media (min-width: 768px) {
+   font-size: 
+}
+
+/* .col-md-? */
+@media (min-width: 992px) {
+    font-size: 
+}
+
+/* .col-lg-? */
+@media (min-width: 1200px) {
+    font-size: 
 }

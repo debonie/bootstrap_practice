@@ -1,6 +1,7 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
@@ -10,17 +11,15 @@
 <div class="top_bar">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 account_tabs">
-                <i class="far fa-clipboard"></i>
-                <a href="#">My Wishlist (0)</a>
-                <i class="fas fa-user"></i>
-                <a href="#">My Account</a>
-                <i class="fas fa-shopping-cart"></i>
-                <a href="#">Shopping Cart</a>
-                <i class="fas fa-check"></i>
-                <a href="#">Checkout</a>
+            <div class="col-lg-6 col-md-6 col-sm-6 account_tabs">
+                <ul>
+                    <li><a href="#"><i class="far fa-clipboard"><span class="hidden-xs"> My</span> Wishlist (0)</i></a></li>
+                    <li><a href="#"><i class="fas fa-user"><span class="hidden-xs"> My</span> Account</i></a></li>                    
+                    <li><a href="#"><i class="fas fa-shopping-cart"><span class="hidden-xs"> Shopping</span> Cart</i></a></li>
+                    <li><a href="#"><i class="fas fa-check"> Checkout</i></a></li>                    
+                </ul>
             </div>
-            <div class="col-lg-6 visitor">
+            <div class="col-lg-6 col-md-6 col-sm-6 visitor">
                 <p>Welcome visitor you can <a href="#">login</a> or <a href="#">create an account</a>.</p>
             </div>
         </div>
@@ -29,10 +28,10 @@
  
 <div class="container logo_bar">
     <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6 col-sm-6">
             <img src="images/logo.jpg">
         </div>
-        <div class="col-lg-6 dollar_tabs">
+        <div class="col-lg-6 col-md-6 col-sm-6 dollar_tabs">
             <a href="#">US Dollar</a>
             <a href="#">English</a>
             <a href="#" class="fas fa-shopping-cart"> 0 Item(s)-$0.00</a>
@@ -42,7 +41,7 @@
 
 <div class="container merchandise_tab">
     <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6 col-sm-6">
             <a href="#">FASHION</a>
             <a href="#">ELECTRONICS</a>
             <a href="#">GIFTS</a>
@@ -50,9 +49,13 @@
             <a href="#">AT HOME</a>
             <a href="#">MUSIC</a>
         </div>
-        <div class="col-lg-6 search_bar">
-            <input type="search" placeholder="Search here...">
-            <a href="#"><img src="images/search_button.jpg"></a>
+        <div class="col-lg-6 col-md-6 col-sm-6 search_bar">
+            <form>
+                <input type="search" placeholder="Search here...">
+                <button>
+                    <a href="#"><img src="images/search_button.jpg"></a>
+                </button>
+            </form>
         </div>
     </div>
 </div>
@@ -60,8 +63,8 @@
 <div class="hero">
     <div class="container">
         <div class="row">
-                <div class="col-lg-12">
-                    <img src="images/hero.jpg">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <img src="images/hero.jpg" class="img-responsive">
                 </div>
         </div>
     </div>
@@ -69,25 +72,28 @@
 
 <div class="container flyers">
     <div class="row">
-        <div class="col-lg-4">
-            <img src="images/free_shipping.jpg">
+        <div class="col-lg-4 col-md-5 col-sm-6">
+            <img src="images/free_shipping.jpg" class="img-responsive">
         </div>
-        <div class="col-lg-4">
-            <img src="images/sale.jpg">
+        <div class="col-lg-4 col-md-5 col-sm-6">
+            <img src="images/sale.jpg" class="img-responsive">
         </div>
-        <div class="col-lg-4">
-            <img src="images/new_arrivals.jpg">
+        <div class="col-lg-4 col-md-5 col-sm-6">
+            <img src="images/new_arrivals.jpg" class="img-responsive">
         </div>
     </div>
 </div>
 
 <div class="container latest">
     <div class="row">
-        <div class="col-lg-6">
-            <h2>Latest</h2>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <h2 class="left_bar">Latest</h2>
             <p>Buy discount items from the latest collections of world brands.</p>
         </div>
-        <div class="col-lg-6 arrows">
+        <!-- <div class="col-lg-4">
+            <hr>
+        </div> -->
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 arrows">
             <a href="#">&gt;</a>
             <a href="#">&lt;</a>
         </div>
@@ -96,23 +102,23 @@
 
 <div class="container store_items">
     <div class="row">
-        <div class="col-lg-3">
-            <img src="images/bracelet.jpg">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+            <img src="images/bracelet.jpg" class="img-responsive">
             <p>Jewelry Bracelet Cara </br> Accessories</p>
             <a href="#">ADD TO CART</a>
         </div>
-        <div class="col-lg-3">
-            <img src="images/coat.jpg">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+            <img src="images/coat.jpg" class="img-responsive">
             <p>Jessica London Short </br> Trench Coat</p>
             <a href="#">ADD TO CART</a>
         </div>
-        <div class="col-lg-3">
-            <img src="images/gloves.jpg">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+            <img src="images/gloves.jpg" class="img-responsive">
             <p>Mocca Stretch Leather </br> Gloves</p>
             <a href="#">ADD TO CART</a>
         </div>
-        <div class="col-lg-3">
-            <img src="images/shirt.jpg">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+            <img src="images/shirt.jpg" class="img-responsive">
             <p>Limited Edition Knitted </br> Sweater</p>
             <a href="#">ADD TO CART</a>
         </div>
@@ -121,24 +127,24 @@
 
 <div class="container welcome">
     <div class="row">
-        <div class="col-lg-6">
-            <h3>Welcome to Venedor</h3>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+            <h2 class="left_bar">Welcome to Venedor</h2>
             <p>Venedor is a fully responsive PSD theme designed for all types of platforms: WooCommerce, Magento, OpenCart, PrestaShop and other. Based on Bootstrap's 12 column 120px responsive grid Template. Great looks on desktops, tablets and mobiles.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nemo, iusto tempore odio vero iste magnam officia ad ipsum necessitatibus fuga aut excepturi dicta voluptate ipsam distinctio illum, natus repellendus! Natus officia quis id ex esse animi facere sit nostrum? </br> <a href="#">Buy Venedor Theme!</a></p>
         </div>
-        <div class="col-lg-6">
-            <img src="images/devices.jpg">
+        <div class="col-lg-6 col-md-6 col-sm-6">
+            <img src="images/devices.jpg" class="img-responsive">
         </div>
     </div>
 </div>
 
 <div class="container best_sellers">
     <div class="row">
-        <div class="col-lg-6">
-            <h2>Bestsellers</h2>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <h2 class="left_bar">Bestsellers</h2>
             <p>Special offers and biggest discounts for the most popular products.</p>
         </div>
-        <div class="col-lg-6 arrows">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 arrows">
             <a href="#">&gt;</a>
             <a href="#">&lt;</a>
         </div>
@@ -147,23 +153,23 @@
     
 <div class="container store_items">
     <div class="row">
-        <div class="col-lg-3">
-            <img src="images/shoes.jpg">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+            <img src="images/shoes.jpg" class="img-responsive">
             <p>Jewelry Bracelet Cara </br> Accessories</p>
             <a href="#">ADD TO CART</a>
         </div>
-        <div class="col-lg-3">
-            <img src="images/purse.jpg">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+            <img src="images/purse.jpg" class="img-responsive">
             <p>Jessica London Short </br> Trench Coat</p>
             <a href="#">ADD TO CART</a>
         </div>
-        <div class="col-lg-3">
-            <img src="images/dress_shoes.jpg">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+            <img src="images/dress_shoes.jpg" class="img-responsive">
             <p>Mocca Stretch Leather </br> Gloves</p>
             <a href="#">ADD TO CART</a>
         </div>
-        <div class="col-lg-3">
-            <img src="images/jacket.jpg">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+            <img src="images/jacket.jpg" class="img-responsive">
             <p>Limited Edition Knitted </br> Sweater</p>
             <a href="#">ADD TO CART</a>
         </div>
@@ -172,10 +178,10 @@
 
 <div class="container manufacturers">
     <div class="row">
-        <div class="col-lg-6">
-            <h2>Manufacturers</h2>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <h2 class="left_bar">Manufacturers</h2>
         </div>
-        <div class="col-lg-6 arrows">
+        <div class="col-lg-6 xol-md-6 col-sm-6 col-xs-6 arrows">
             <a href="#">&gt;</a>
             <a href="#">&lt;</a>
         </div>
@@ -184,23 +190,23 @@
 
 <div class="container brand_logo">
     <div class="row">
-        <div class="col-lg-2">
-            <img src="images/brand_logo.jpg">
+        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+            <img src="images/brand_logo.jpg" class="img-responsive">
         </div>
-        <div class="col-lg-2">
-            <img src="images/brand_logo.jpg">
+        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+            <img src="images/brand_logo.jpg" class="img-responsive">
         </div>
-        <div class="col-lg-2">
-            <img src="images/brand_logo.jpg">
+        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+            <img src="images/brand_logo.jpg" class="img-responsive">
         </div>
-        <div class="col-lg-2">
-            <img src="images/brand_logo.jpg">
+        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+            <img src="images/brand_logo.jpg" class="img-responsive">
         </div>
-        <div class="col-lg-2">
-            <img src="images/brand_logo.jpg">
+        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+            <img src="images/brand_logo.jpg" class="img-responsive">
         </div>
-        <div class="col-lg-2">
-            <img src="images/brand_logo.jpg">
+        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+            <img src="images/brand_logo.jpg" class="img-responsive">
         </div>
     </div>
 </div>
@@ -208,10 +214,10 @@
 <div class="sign_up">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6 col-sm-6">
                 <h4><strong>SIGN UP TO RECEIVE THE LATEST FASHION NEWS</strong></h4>
             </div>
-            <div class="col-lg-6 email_bar">
+            <div class="col-lg-6 col-md-6 col-sm-6 email_bar">
                 <input type="email" placeholder="Enter your email address">
                 <a href="#">SIGN UP</a>
             </div>
@@ -222,7 +228,7 @@
 <div class="more_info">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-3 col-sm-6">
                 <h5>MY ACCOUNT</h5>
                 <ul>
                     <li><a href="#">My account</a></li>
@@ -233,7 +239,7 @@
                     <li><a href="#">Your Vouchers</a></li>
                 </ul>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-3 col-sm-6">
                 <h5>INFORMATION</h5>
                 <ul>
                     <li><a href="#">New products</a></li>
@@ -244,34 +250,34 @@
                     <li><a href="#">Our stores</a></li>
                 </ul>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-3 col-sm-6">
                 <h5>FROM TWITTER</h5>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident nostrum accusantium ullam reprehenderit magnam modi accusamus delectus. </br> <a href="#">http://t.co/MqacjST476</a></p>
                 <p>about 1 hour ago</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ab perferendis vel! <a href="#">http://t.co/CCkfps248sq</a> Lorem, ipsum.</p>
                 <p>about 3 hours ago</p>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-3 col-sm-6">
                 <h5>FACEBOOK</h5>
                 <button>Like!</button>
                 <p>1452 people like <a href="#">PromoKit</a></p>
                 <div class="row">
-                    <div class="col-lg-4">
-                        <img src="images/anna.jpg">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <img src="images/anna.jpg" class="img-responsive">
                         <p>Anna</p>
-                        <img src="images/milla.jpg">
+                        <img src="images/milla.jpg" class="img-responsive">
                         <p>Milla</p>
                     </div>
-                    <div class="col-lg-4">
-                        <img src="images/tom.jpg">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <img src="images/tom.jpg" class="img-responsive">
                         <p>Tom</p>
-                        <img src="images/justine.jpg">
+                        <img src="images/justine.jpg" class="img-responsive">
                         <p>Justine</p>
                     </div>
-                    <div class="col-lg-4">
-                        <img src="images/antuan.jpg">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <img src="images/antuan.jpg" class="img-responsive">
                         <p>Antuan</p>
-                        <img src="images/maria.jpg">
+                        <img src="images/maria.jpg" class="img-responsive">
                         <p>Maria</p>
                     </div>
                 </div>
@@ -279,17 +285,18 @@
         </div>
     </div>
 </div>
+
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                 <i class="fab fa-facebook"></i>
                 <i class="fab fa-tumblr"></i>
                 <i class="fab fa-linkedin"></i>
                 <i class="fab fa-skype"></i>
                 <i class="far fa-envelope"></i>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                 <p>&copy; 2012 Powered by WebCommerce &trade;. All Rights Reserved.</p>
             </div>
         </div>
